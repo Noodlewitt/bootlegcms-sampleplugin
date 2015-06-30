@@ -1,0 +1,25 @@
+{
+    "name": "bootleg/sample",
+    "description": "a sample bootleg theme",
+    "authors": [
+        {
+            "name": "Simon Davies",
+            "email": "simon@wherever.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~3.8"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Bootleg\\Sample\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

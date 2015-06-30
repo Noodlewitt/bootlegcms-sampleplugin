@@ -1,0 +1,16 @@
+{
+  "name": "sample project",
+  "version": "0.0.1",
+  "authors": [
+    "Simon Davies <simon@wherever.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation": "~5.5.0"
+  },
+  "devDependencies": {
+    "slick-carousel": "~1.5.3",
+    "imgLiquid": "~0.9.944"
+  }
+}
